@@ -8,6 +8,10 @@ app = Flask (__name__)
 def index ():
     return "<p> Welcome to Tara School </p>"
 
+#adding new routes
+@app.route("/courses")
+def courses ():
+    return "This is the courses page"
 
 if __name__ == "__main__":
     app.run(port=5000, debug=True)
