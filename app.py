@@ -13,5 +13,12 @@ def index ():
 def courses ():
     return "This is the courses page"
 
+@app.route("/about")
+
+def about ():
+    return "What to know about us"
+
+
+
 if __name__ == "__main__":
     app.run(port=5000, debug=True)
