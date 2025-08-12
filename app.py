@@ -13,6 +13,10 @@ def index ():
 def courses ():
     return "This is the courses page"
 
+#creating path parameters
+def course_details():
+    return f"This is course: {Computer_Science} "
+
 @app.route("/about")
 def about ():
     return "What to know about us"
