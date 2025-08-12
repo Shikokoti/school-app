@@ -14,9 +14,12 @@ def courses ():
     return "This is the courses page"
 
 @app.route("/about")
-
 def about ():
     return "What to know about us"
+
+@app.route("/contact")
+def contact():
+    return "Contact Us Here"
 
 
 
