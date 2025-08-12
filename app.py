@@ -6,7 +6,7 @@ app = Flask (__name__)
 #added a app route using the decorator @app.route
 @app.route('/')
 def index ():
-    return "<p> Hello World </p>"
+    return "<p> Welcome to Tara School </p>"
 
 
 if __name__ == "__main__":
