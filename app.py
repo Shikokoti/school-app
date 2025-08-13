@@ -20,8 +20,8 @@ def course_details(course_id):
 
 #add a path
 @app.route("/courses/<path: course_file>")
-def coure_file(course_file):
-    return f"Currently serving : {coure_file}"
+def course_file(course_file):
+    return f"Currently serving : {course_file}"
 
 
 @app.route("/about")
